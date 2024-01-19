@@ -10,8 +10,11 @@ export default function AboutMe() {
     exit={{opacity:0}}>
 
       <h1>About Me</h1>
+      <div style={{overflow:'auto'}}>
+        <img src={picture} style={{width:'auto', height:'auto', float:'right'}}/>
         <h2>Background</h2>
-          <p>I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since high school,
+          <p>
+            I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since high school,
             and have always had an interest in anything computer or technology related.
             <br/>
             Aside from computer programming, I have an interest in music, as well as martial arts. I've been playing drums locally for
@@ -27,7 +30,8 @@ export default function AboutMe() {
           <li>Android Mobile App Development</li>
           <li>Web Development and Design (HTML, CSS, JavaScript)</li>
         </ul>
-        <h2>Interesting Facts</h2>
+      </div>
+
     </motion.div>
   )
 }
