@@ -1,5 +1,4 @@
 import React from 'react'
-import './styles.css'
 import { Outlet, NavLink } from "react-router-dom";
 
 export default function NavBar() {
@@ -13,7 +12,7 @@ export default function NavBar() {
               <li><NavLink to="/Contact"> Contact</NavLink></li>
           </ul>
       </nav>
-      <Outlet/>
+      
     </>
   )
 }

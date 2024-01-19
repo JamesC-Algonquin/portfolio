@@ -5,20 +5,32 @@ import Projects from './Pages/Projects.jsx'
 import AboutMe from './Pages/AboutMe.jsx'
 import Contact from './Pages/Contact.jsx'
 import NavBar from './NavBar.jsx'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion'
+import './styles.css'
 
 export default function Main(){
+  
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<NavBar />} >
-          <Route index element={<Home />} />
-          <Route path="Projects" element={<Projects />} />
-          <Route path="AboutMe" element={<AboutMe />} />
-          <Route path="Contact" element={<Contact />} />
-        </Route>
-      </Routes>
+      <NavBar />
+      <AnimatedRoutes/>
     </BrowserRouter>
+  )
+}
+
+export function AnimatedRoutes(){
+
+  const location = useLocation()
+  return(
+    <AnimatePresence mode='wait'>
+      <Routes location={location} key={location.pathname}>
+          <Route index path="/" element={<Home />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </AnimatePresence>
   )
 }
 

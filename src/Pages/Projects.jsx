@@ -1,9 +1,13 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 export default function Projects() {
   return (
-    <div className="content">
+    <motion.div className="content"
+    initial={{opacity:1}}
+    animate={{opacity:1}}
+    exit={{opacity:0}}>
       <h1>Projects</h1>
-    </div>
+    </motion.div>
   )
 }
