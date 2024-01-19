@@ -1,11 +1,10 @@
 import React from 'react'
-import NavBar from './NavBar'
-import './styles.css'
+import NavBar from '../NavBar'
+import '../styles.css'
 
-export default function TitlePage() {
+export default function Home() {
   return (
     <>
-    <NavBar/>
     <div className="front">
         <h1>James Ching</h1>
         <h2>Software Developer</h2>
