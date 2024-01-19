@@ -36,7 +36,12 @@ nav.nav ul li a{
     font-size: 1.5em;
 }
 
-div.front{
+nav.nav ul li a:hover{
+    background-color: gray;
+    border-radius: 7px;
+}
+
+div.content{
     margin: 10%;
     clear:left;
 }
