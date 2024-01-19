@@ -1,0 +1,43 @@
+body{
+    width:auto;
+    height:auto;
+    background-image: url(grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+}
+
+div.nav{
+    display:flex;
+    justify-content: end;
+    padding-right:10%;
+    padding-top:5px;
+    padding-bottom: 5%;
+    backdrop-filter: invert(40%);
+    mask-image: linear-gradient(black, transparent);
+}
+
+div.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+  }
+
+div.nav ul li{
+    float: left;
+    
+}
+
+div.nav ul li a{
+    display:block;
+    padding: 8px;
+    color:black;
+    font-size: 1.5em;
+}
+
+div.front{
+    margin: 10%;
+    clear:left;
+}
+
