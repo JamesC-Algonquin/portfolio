@@ -11,7 +11,7 @@ body{
 nav.nav{
     display:flex;
     justify-content: end;
-    padding-right:10%;
+    padding-right:9%;
     padding-top:5px;
     padding-bottom: 5%;
     backdrop-filter: invert(40%);
@@ -36,13 +36,19 @@ nav.nav ul li a{
     font-size: 1.5em;
 }
 
+nav.nav ul li a.active{
+    background-color: rgb(133, 132, 132);
+    border-radius: 7px;
+}
+
 nav.nav ul li a:hover{
-    background-color: gray;
+    background-color: rgb(114, 113, 113);
     border-radius: 7px;
 }
 
 div.content{
-    margin: 10%;
+    margin-top:2%;
+    margin-left: 5%;
     clear:left;
 }
 
