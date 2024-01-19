@@ -26,13 +26,13 @@ export default function AboutMe() {
             Southwestern England.
           </p>
         <h2>Education and Skills</h2>
-        <p>Graduated with honours and 3.96/4.0 GPA from Computer Programming Course at Algonquin College.</p>
+        <p>Graduated with honours and 3.96/4.0 GPA from the Computer Programming course at Algonquin College.</p>
         <p style={{marginBottom:0, paddingBottom:0}}>Skilled in:</p>
         <ul style={{marginTop:0, paddingTop:0}}>
           <li>Object-Oriented Programming (Java, Python, C++)</li>
           <li>Database Systems and Design (MySQL, Oracle)</li>
-          <li>Android Mobile App Development</li>
           <li>Web Development and Design (HTML, CSS, JavaScript)</li>
+          <li>Android Mobile App Development</li>
         </ul>
       </div>
 
