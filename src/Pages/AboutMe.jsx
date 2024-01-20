@@ -21,9 +21,8 @@ export default function AboutMe() {
             for 7 years, and can also play piano and electric guitar. I have a first-degree black belt in Shotokan Karate, and instruct
             classes on the weekends.
             <br/>
-            I am also trilingual, speaking English, French, and Japanese. I am half Canadian and half Japanese, and despite common 
-            belief, my last name "Ching" is not of Japanese origin (or Asian at all, for that matter), but rather comes from 
-            Southwestern England.
+            I am also trilingual, speaking English, French, and Japanese. I am half Canadian and half Japanese, and contrary to common 
+            belief, my last name "Ching" is not of Japanese origin (or Asian at all, for that matter), but is actually English in origin.
           </p>
         <h2>Education and Skills</h2>
         <p>Graduated with honours and 3.96/4.0 GPA from the Computer Programming course at Algonquin College.</p>
