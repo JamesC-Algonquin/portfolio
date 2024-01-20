@@ -11,7 +11,7 @@ export default function AboutMe() {
 
       <h1>About Me</h1>
       <div style={{overflow:'auto'}}>
-        <img src={picture} style={{width:'auto', height:'auto', float:'right'}}/>
+        <img src={picture} style={{width:'30vw', height:'auto', float:'right'}}/>
         <h2>Background</h2>
           <p>
             I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since high school,
