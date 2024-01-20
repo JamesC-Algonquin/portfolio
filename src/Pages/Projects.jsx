@@ -65,7 +65,7 @@ export default function Projects() {
         <br/>
         The JSON file containing the ruleset can be opened in any text editor or IDE (or from the convenient link in the app UI),
         and be easily changed to the user's preference. The application also features a option to reset the configuration to default, 
-        in the event that the ruleset is incorrectly defined.\
+        in the event that the ruleset is incorrectly defined.
         <br/>
         <br/>
         Find the source code <a href='https://github.com/JamesC-Algonquin/PythonDirectoryOrganizer' target="_blank" rel="noopener noreferrer">here.</a>
