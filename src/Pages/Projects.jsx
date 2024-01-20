@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import nasa1 from '../Images/nasa1.png'
 import nasa2 from '../Images/nasa2.png'
 import solitaire from '../Images/solitaire.png'
+import py1 from '../Images/py1.png'
 
 export default function Projects() {
   return (
@@ -52,6 +53,26 @@ export default function Projects() {
           To see source code and Windows-ready releases, check it out <a href='https://github.com/JamesC-Algonquin/Solitaire-JavaSwing' target="_blank" rel="noopener noreferrer">here.</a>
         </p>
       </div>
+
+      <h2>Python Directory Organizer</h2>
+      <div style={{overflow:'auto'}}>
+      <img src={py1} style={{width:'32vw', float:'right'}}/>
+      <p>
+        The Python Directory Organizer is a simple project aimed at simplifying folder management. It takes an array of 'rules'
+        from a JSON files, defined by a directory name and a list of file extensions. When the script is pointed to a folder and is run,
+        it searches in the folder for all files matching the file extensions listed in the ruleset. If found, it will automatically place
+        the file in the associated folder, creating the folder if it does not already exist.
+        <br/>
+        The JSON file containing the ruleset can be opened in any text editor or IDE (or from the convenient link in the app UI),
+        and be easily changed to the user's preference. The application also features a option to reset the configuration to default, 
+        in the event that the ruleset is incorrectly defined.\
+        <br/>
+        <br/>
+        Find the source code <a href='https://github.com/JamesC-Algonquin/PythonDirectoryOrganizer' target="_blank" rel="noopener noreferrer">here.</a>
+      </p>
+
+      </div>
+      
     </motion.div>
   )
 }
