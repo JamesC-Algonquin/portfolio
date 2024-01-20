@@ -5,17 +5,17 @@ import Projects from './Pages/Projects.jsx'
 import AboutMe from './Pages/AboutMe.jsx'
 import Contact from './Pages/Contact.jsx'
 import NavBar from './NavBar.jsx'
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from 'framer-motion'
 import './styles.css'
 
 export default function Main(){
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar />
       <AnimatedRoutes/>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
