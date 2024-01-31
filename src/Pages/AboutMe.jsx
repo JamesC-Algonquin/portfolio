@@ -14,15 +14,15 @@ export default function AboutMe() {
         <img src={picture} style={{width:'30vw', height:'auto', float:'right'}}/>
         <h2>Background</h2>
           <p>
-            I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since high school,
+            I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since 2018,
             and have always had an interest in anything computer or technology related.
-            <br/>
-            Aside from computer programming, I have an interest in music, as well as martial arts. I've been playing drums locally
-            for 7 years, and can also play piano and electric guitar. I have a first-degree black belt in Shotokan Karate, and instruct
+            
+            Aside from computer programming, I have an interest in music, as well as martial arts.  I play drums and piano, and 
+            I'm currently learning to play electric guitar. I have a first-degree black belt in Shotokan Karate, and instruct
             classes on the weekends.
-            <br/>
-            I am also trilingual, speaking English, French, and Japanese. I am half Canadian and half Japanese, and contrary to common 
-            belief, my last name "Ching" is not of Japanese origin (or Asian at all, for that matter), but is actually English in origin.
+            
+            I am also trilingual, speaking English, French, and Japanese. Contrary to common belief, my last name "Ching" is not 
+            of Japanese origin (or Asian at all, for that matter), but is actually English in origin.
           </p>
         <h2>Education and Skills</h2>
         <p>Graduated with honours and 3.96/4.0 GPA from the Computer Programming course at Algonquin College.</p>
