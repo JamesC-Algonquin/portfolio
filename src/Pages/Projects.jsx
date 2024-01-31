@@ -16,7 +16,7 @@ export default function Projects() {
 
       <h2>This Website</h2>
       <p>
-        It is coded entirely using the React JavaScript framework, implementing an intuitive navigation menu 
+        This site is coded using the React JavaScript framework, implementing an intuitive navigation menu 
         and animated transitions between pages. 
         Check out the source code on the <a href='https://github.com/JamesC-Algonquin/portfolio' target="_blank" rel="noopener noreferrer">GitHub Repository</a>.
       </p>
@@ -46,7 +46,7 @@ export default function Projects() {
         <img src={solitaire} style={{width:'32vw', float:'right'}}/>
         <p>This project is an exact re-creation of the classic Solitaire card game, using Java's Swing GUI framework. It was designed
           with Object-Oriented Programming and Design Principles and Patterns in mind, and follows roughly a MVC architecture.
-          It even has some bonus features, such as multiple card background choices, regular and Klondike game modes, and score keeping.
+          It includes bonus features such as multiple card background choices, regular and Klondike game modes, and score keeping.
           <br/>
           <br/>
           To see source code and Windows-ready releases, check it out <a href='https://github.com/JamesC-Algonquin/Solitaire-JavaSwing' target="_blank" rel="noopener noreferrer">here.</a>

@@ -15,11 +15,10 @@ export default function AboutMe() {
         <h2>Background</h2>
           <p>
             I am a programmer based in Moncton, New Brunswick. I've been working on my computer programming skills since 2018,
-            and have always had an interest in anything computer or technology related.
+            and I've always had an interest in anything computer or technology related.
             
-            Aside from computer programming, I have an interest in music, as well as martial arts.  I play drums and piano, and 
-            I'm currently learning to play electric guitar. I have a first-degree black belt in Shotokan Karate, and instruct
-            classes on the weekends.
+            Other interests include music and martial arts. I play drums and piano, and I'm currently learning to play electric guitar. 
+            I have a first-degree black belt in Shotokan Karate and instruct classes on the weekends.
             
             I am also trilingual, speaking English, French, and Japanese. Contrary to common belief, my last name "Ching" is not 
             of Japanese origin (or Asian at all, for that matter), but is actually English in origin.
