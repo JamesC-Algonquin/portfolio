@@ -15,8 +15,7 @@ export default function Projects() {
       <h1>Projects</h1>
 
       <h2>This Website</h2>
-      <p>This website itself is actually a project demonstration in itself.
-        <br/>
+      <p>
         It is coded entirely using the React JavaScript framework, implementing an intuitive navigation menu 
         and animated transitions between pages. 
         Check out the source code on the <a href='https://github.com/JamesC-Algonquin/portfolio' target="_blank" rel="noopener noreferrer">GitHub Repository</a>.
@@ -29,7 +28,7 @@ export default function Projects() {
         <img src={nasa1} style={{width:'15vw', float:'right'}}/>
         <img src={nasa2} style={{width:'15vw', float:'right'}}/>
         
-        <p>The "NASA Image of the Day" project is an Android based application that displayed images from NASA's APOD library.
+        <p>The "NASA Image of the Day" project is an Android based application that displays images from NASA's APOD library.
           For reference, APOD (Astronomy Picture of the Day) 
           is an <a href='https://apod.nasa.gov/apod/archivepixFull.html' target="_blank" rel="noopener noreferrer">online archive</a> to which 
           NASA posts a new image every day, with an associated description of the image. This application queries an API using specific
@@ -64,7 +63,7 @@ export default function Projects() {
         the file in the associated folder, creating the folder if it does not already exist.
         <br/>
         The JSON file containing the ruleset can be opened in any text editor or IDE (or from the convenient link in the app UI),
-        and be easily changed to the user's preference. The application also features a option to reset the configuration to default, 
+        and easily changed to the user's preference. The application also features a option to reset the configuration to default, 
         in the event that the ruleset is incorrectly defined.
         <br/>
         <br/>
