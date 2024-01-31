@@ -13,7 +13,7 @@ export default function Home() {
         <h2>Software Developer</h2>
         <div className='front'>
         <p>
-          I am a software developer with experience making various applications for desktop, web, and mobile environments. 
+          I am a software developer with experience making applications for desktop, web, and mobile environments. 
           Throughout my programming career, my focus has been on effective, 
           concise programming, logical structure and design, and good communication.
         </p>
